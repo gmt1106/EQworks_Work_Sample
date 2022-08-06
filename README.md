@@ -14,3 +14,17 @@ You can also opt to develop using your local environment. Node.js v14+ is recomm
 ## Notes on working through the problems
 
 We encourage a healthy mixture of your own implementations, and good choices of existing open-source libraries/tools. We will comment in the problems to indicate which ones cannot be solved purely through an off-the-shelf solution.
+
+## Problems 
+
+1. API rate-limiting
+
+2. Client-side general chart visualizations
+
+3. Client-side data table
+
+4. Client-side geo visualizations
+
+## Glitch link
+* The link to deployed website : https://eqworks-work-sample.glitch.me
+* The link to the glitch code: https://glitch.com/edit/#!/eqworks-work-sample?path=apiRateLimiter.js%3A1%3A0
