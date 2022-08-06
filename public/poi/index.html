@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+    <style>
+      #poiMap {
+        height: 240px;
+        margin: 8px 0px;
+      }
+    </style>
+    <title>EQ Works Work Sample Demo</title>
+  </head>
+  <body>
+    <h1>EQ Works Work Sample Demo</h1>
+    <div>
+      <a href="/">Home</a> | <a href="/events_daily">Event Daily</a> |
+      <a href="/stats_hourly">States Hourly</a> |
+      <a href="/poi">Poi</a>
+    </div>
+    <p>
+      <span id="error_message"></span>
+    </p>
+    <div id="poiMap"></div>
+    <script src="poi.js"></script>
+  </body>
+</html>

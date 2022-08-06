@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Weather Here</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.0/dist/chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../styles.css" />
+    <h1>EQ Works Work Sample Demo</h1>
+    <div>
+      <a href="/">Home</a> | <a href="/events_daily">Event Daily</a> |
+      <a href="/stats_hourly">States Hourly</a> |
+      <a href="/poi">Poi</a>
+    </div>
+    <p>
+      <span id="error_message"></span>
+    </p>
+    <canvas id="chart1" width="400" height="400"></canvas>
+    <canvas id="chart2" width="400" height="400"></canvas>
+    <canvas id="chart3" width="400" height="400"></canvas>
+    <table class="table table-striped">
+      <thead id="table_header"></thead>
+      <tbody id="table_body"></tbody>
+    </table>
+    <script src="stats_hourly.js"> </script>
+  </body>
+</html>
